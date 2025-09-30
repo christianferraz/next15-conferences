@@ -1,11 +1,10 @@
 import './globals.css';
 
-import { Geist } from 'next/font/google';
-import React from 'react';
-import { Toaster } from 'react-hot-toast';
 import Wrapper from '@/components/ui/Wrapper';
 import { cn } from '@/utils/cn';
 import type { Metadata } from 'next';
+import { Geist } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 
 const GeistSans = Geist({ subsets: ['latin'] });
 
